@@ -15,19 +15,19 @@ import javax.swing.JOptionPane;
 public class Conexion {
 
     static Connection Conectar;
-//    static final String Driver = "com.mysql.cj.jdbc.Driver";
-//    static final String Host = "bpwxf4e69x5fyugcydw6-mysql.services.clever-cloud.com";
-//    static final String Port = "3306";
-//    static final String User = "uaokk8xarf8izd6x";
-//    static final String Password = "m9xjWB2LjW7A6V9vlat2";
-//    static final String Namebd = "bpwxf4e69x5fyugcydw6";
-    
     static final String Driver = "com.mysql.cj.jdbc.Driver";
-    static final String Host = "localhost";
+    static final String Host = "bpwxf4e69x5fyugcydw6-mysql.services.clever-cloud.com";
     static final String Port = "3306";
-    static final String User = "root";
-    static final String Password = "javier20";
-    static final String Namebd = "tienda";
+    static final String User = "uaokk8xarf8izd6x";
+    static final String Password = "m9xjWB2LjW7A6V9vlat2";
+    static final String Namebd = "bpwxf4e69x5fyugcydw6";
+    
+//    static final String Driver = "com.mysql.cj.jdbc.Driver";
+//    static final String Host = "localhost";
+//    static final String Port = "3306";
+//    static final String User = "root";
+//    static final String Password = "javier20";
+//    static final String Namebd = "tienda";
     
     static final String url = "jdbc:mysql://"+Host+":"+Port+"/"+Namebd;
     
